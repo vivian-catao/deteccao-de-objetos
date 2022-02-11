@@ -10,7 +10,7 @@ print(deteccoes)
 print (len(deteccoes))
 
 for x, y,l,h in deteccoes:
-    #print(x,y,l,h)
+    #print(x,y,l,h) #imprimir coordenadas
     cv2.rectangle(obj_img,(x,y),(x+l,y+h),(0,255,0),2)
 
 
